@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 64px;
+    margin-bottom: 55px;
+}
+
+.header p{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 14px;
+    margin-bottom:56px ;
+    width: 954px;
+    text-align: center;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+.style-sheet-card{
+    width: 243px;
+    height: 464px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+    background-color: #92E5CF ;
+}
+.style-sheet-card img{
+    max-width: 157px;
+    margin-bottom: 20px;
+}
+
+.style-sheet-card h2{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.style-sheet-card p{
+    max-width: 164px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .style-sheet-card button{
+    width: 136px;
+    height: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: transparent; /*to remove the button background color*/
+    border: 1px solid;
+
+  }
+
+  .margin-padding-card{
+    width: 243px;
+    height: 464px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+    background-color: #FDEA84 ;
+  }
+  .margin-padding-card img{
+    max-width: 157px;
+    margin-bottom: 20px;
+  }
+  .margin-padding-card h2{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .margin-padding-card p {
+    max-width: 164px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+
+  .margin-padding-card button{
+    width: 136px;
+    height: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: transparent; /*to remove the button background color*/
+    border: 1px solid;
+  }
+
+  .text-transform-card{
+    width: 243px;
+    height: 464px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+    background-color: #F2BABD 
+
+  }
+
+  .text-transform-card img{
+    max-width: 157px;
+    margin-bottom: 20px;
+
+  }
+
+  .text-transform-card h2{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .text-transform-card p{
+    max-width: 164px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 50px;
+
+  }
+
+  .text-transform-card button{
+    width: 136px;
+    height: 33px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: transparent; /*to remove the button background color*/
+    border: 1px solid;
+
+  }

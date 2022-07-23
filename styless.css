@@ -42,6 +42,46 @@
     row-gap: 10px;
     background-color: #92E5CF ;
 }
+
+.popup{
+  display: none;
+  z-index: 99;
+  position: fixed;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 365px;
+  height: 163px;
+  text-align: center;
+}
+
+.popup:target{
+  display: block;
+}
+
+.popup-inner{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 30px;
+
+}
+.popup-inner p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+.popup-inner a button{
+  width: 136px;
+  height: 33px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: transparent; /*to remove the button background color*/
+  border: 1px solid;
+}
+
 .style-sheet-card img{
     max-width: 157px;
     margin-bottom: 20px;

@@ -29,6 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    column-gap: 1em;
+     
  }
 
 .style-sheet-card{
@@ -41,6 +43,7 @@
     text-align: center;
     row-gap: 10px;
     background-color: #92E5CF ;
+    
 }
 
 .popup{

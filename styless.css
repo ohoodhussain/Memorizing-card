@@ -56,13 +56,13 @@
 .popup{
   display: none;
   z-index: 99;
-  position: fixed;
-  background-color: #FDEA84;
+  position: absolute; /* this help the box to be in the middel*/
+   background-color: #FDEA84;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   width: 365px;
   height: 163px;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .popup:target{
@@ -90,11 +90,6 @@ padding: 30px;
   cursor: pointer;
   background-color: transparent; /*to remove the button background color*/
   border: 1px solid;
-}
-
-.style-sheet-card img{
-    max-width: 157px;
-    margin-bottom: 20px;
 }
 
 .cards-item-header{

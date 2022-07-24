@@ -18,7 +18,7 @@
 
 .header h1{
     font-family: 'Mochiy Pop One', sans-serif;
-    font-size: 10vw;
+    font-size: 10vw; /*make the h1 fixed size*/
     margin-bottom: 55px;
     text-align: center;    
 }
